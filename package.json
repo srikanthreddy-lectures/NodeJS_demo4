@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "serve":"live-server .\/public",
+     "serve":"live-server public",
     "prepare": "npx crlf --set=LF",
     "start": "npm run serve"
   },
@@ -13,6 +13,5 @@
   "license": "ISC",
   "dependencies": {
     "live-server": "^1.2.2",
-    "nodemon": "^2.0.19"
   }
 }
